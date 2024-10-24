@@ -2,10 +2,10 @@
 Developed a serverless GCP Cloud Function to automate user profile data processing and upload to MailJet sub-accounts via API integration.
 ## Table of Contents
 
-- [User Stories](#User stories)
+- [User Stories](#UserStories.)
 - [Stakeholders](#Stakeholders)
 - [Problems and Challenges](#Problems and Challenges)
-## User stories
+## UserStories.
 As a user, I want to upload a CSV file containing user profiles, so that I can automate the data processing and integration with MailJet.
 As a developer, I want the Cloud Function to validate and parse the CSV file, so that only correct and complete data is processed.
 As a marketer, I want to see updated user profiles in MailJet sub-accounts after processing, so that I can target my campaigns effectively.

@@ -1,9 +1,10 @@
 # Project 1: MailJet API Tools 
 Developed a serverless GCP Cloud Function to automate user profile data processing and upload to MailJet sub-accounts via API integration.
 ## Table of Contents
-- [User Stories](#UserStories.)
-- [Stakeholders](#Stakeholders.)
-- [Problems and Challenges](#Problems/Challenges.)
+- [User Stories](#UserStories)
+- [Stakeholders](#Stakeholders)
+- [Problems and Challenges](#Problems/Challenges)
+- [Role](#Role)
 ## UserStories.
 As a user, I want to upload a CSV file containing user profiles, so that I can automate the data processing and integration with MailJet.
 As a developer, I want the Cloud Function to validate and parse the CSV file, so that only correct and complete data is processed.
@@ -24,6 +25,8 @@ Managing authentication and rate limits with the MailJet API.
 
 Testing and Deployment:
 Setting up CI/CD pipelines for smooth deployment and rollback.
+## Role
+Java Developer-Developed the Cloud Function code to handle data processing and API integration.
 
 # Project 2: Solvay MFT File Sync to Acquia server
 Developed a GCP Cloud Function to securely upload user data from Excel files to a Drupal server via SFTP with PPK authentication. 

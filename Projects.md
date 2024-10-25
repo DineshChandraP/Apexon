@@ -15,8 +15,7 @@ Developed a serverless GCP Cloud Function to automate user profile data processi
 ## Problems/Challenges
 **Data Validation:**
 - Ensuring the CSV file is correctly formatted and contains all required fields.
-- Handling missing or malformed data gracefully.
-  
+- Handling missing or malformed data gracefully. 
 **API Integration:**
 - Understanding and implementing MailJet's API for uploading data to sub-accounts.
 - Managing authentication and rate limits with the MailJet API.
@@ -28,10 +27,8 @@ Developed a serverless GCP Cloud Function to automate user profile data processi
 - Developed a second GCP Cloud Function to clean up the inactive user data with the help of multi-threading. 
 - Created GCP Pub-Sub topic and Configured GCP Cloud Scheduler to trigger the second GCP Cloud Function. 
 - Successfully automated profile data uploads with secure processing and comprehensive monitoring. 
-
 # Project 2: Solvay MFT File Sync to Acquia server
 Developed a GCP Cloud Function to securely upload user data from Excel files to a Drupal server via SFTP with PPK authentication. 
-
 ## Table of Contents
 - [User Stories](#UserStories-1)
 - [Stakeholders](#Stakeholders-1)
@@ -54,7 +51,6 @@ Developed a GCP Cloud Function to securely upload user data from Excel files to 
 - Implemented data validation and error handling to ensure accuracy during file transfers. 
 - Streamlined deployments by configuring GitHub CI/CD pipelines. 
 - Delivered a secure and automated solution for regular data uploads, improving system reliability and security. 
-
 # Project 3: GPC Delta Scheduler 
 Developed a system to read product data from a Product database and transmit it to an Acquia server for publishing products info to Solvay.com website. 
 ## Table of Contents
@@ -76,7 +72,6 @@ System Administrators: Managing server infrastructure and ensuring security.
 - Developed service components for data processing and transformation. 
 - Built RESTful APIs for communication between systems, ensuring error handling and logging. 
 - Delivered a scalable solution for data synchronization, enhancing operational efficiency and data accuracy
-
 # Project 4: GPC Endpoint  
 Developed a web application that provides a RESTful API for external applications to retrieve product and market data. 
 ## Table of Contents
@@ -98,7 +93,6 @@ Developed a web application that provides a RESTful API for external application
 - Created RESTful APIs to enable external applications to query product data and download documents. 
 - Integrated Sinequa and Documentum services to fetch the product info along with relevant Documents. 
 - Delivered a user-friendly interface which provides the information on available endpoints which facilitate seamless Product data access and document downloads which can be integrated with Client applications.
-
 # Project 5: Global Product Catalog
 Developed a comprehensive web application to manage products and market data, allowing admin teams to efficiently update and maintain data which is later published for end-users.
 ## Table of Contents
@@ -123,7 +117,6 @@ Developed a comprehensive web application to manage products and market data, al
 - Configured HTTPS protocol and handled SSL Certificate creation/import on Tomcat server. 
 - Successfully delivered a web application enabling effective data management for the admin team. 
 - Configured Jenkins CI-CD to ease the development and release operations.
-- 
 # Project 6: Loftware Job failure & Service Monitoring Email Alerts 
 Automated email alerts, improving system monitoring and reducing downtime. 
 ## Table of Contents
@@ -149,7 +142,6 @@ Automated email alerts, improving system monitoring and reducing downtime.
 - Designed and integrated the system to capture error logs and send detailed email notifications, improving real-time monitoring and response. 
 - Configured customizable email templates to include relevant error details, ensuring clarity and actionable insights for the development team. 
 - Collaborated with stakeholders and operations teams to test and fine-tune the notification system for accuracy and reliability.
-  
 # Project 7: Deployment and Maintenence IUCLID, Chesar, QSAR and Contrattech Applications- Support  
 Handled deployment of IUCLID, Chesar, QSAR and Contrattech Applications. 
 ## Table of Contents

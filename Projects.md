@@ -16,9 +16,11 @@ Developed a serverless GCP Cloud Function to automate user profile data processi
 **Data Validation:**
 - Ensuring the CSV file is correctly formatted and contains all required fields.
 - Handling missing or malformed data gracefully.
+  
 **API Integration:**
 - Understanding and implementing MailJet's API for uploading data to sub-accounts.
 - Managing authentication and rate limits with the MailJet API.
+  
 **Testing and Deployment:**
 - Setting up CI/CD pipelines for smooth deployment and rollback.
 ## Role

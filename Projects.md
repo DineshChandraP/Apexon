@@ -33,9 +33,9 @@ Developed a serverless GCP Cloud Function to automate user profile data processi
 Developed a GCP Cloud Function to securely upload user data from Excel files to a Drupal server via SFTP with PPK authentication. 
 
 ## Table of Contents
-- [User Stories](#UserStories.)
-- [Stakeholders](#Stakeholders.)
-- [Problems and Challenges](#Problems/Challenges.)
+- [User Stories](#UserStories-1)
+- [Stakeholders](#Stakeholders-1)
+- [Problems and Challenges](#Problems/Challenges-1)
 - [Role](#Role.)
 ## UserStories.
 - As a System Administrator, I want to ensure that the upload process is secure to protect sensitive user information.
@@ -58,10 +58,10 @@ Developed a GCP Cloud Function to securely upload user data from Excel files to 
 # Project 3: GPC Delta Scheduler 
 Developed a system to read product data from a Product database and transmit it to an Acquia server for publishing products info to Solvay.com website. 
 ## Table of Contents
-- [User Stories](#UserStories..)
-- [Stakeholders](#Stakeholders..)
-- [Problems and Challenges](#Problems/Challenges..)
-- [Role](#Role..)
+- [User Stories](#UserStories-2)
+- [Stakeholders](#Stakeholders-2)
+- [Problems and Challenges](#Problems/Challenges-2)
+- [Role](#Role-2)
 ## UserStories..
 Product Managers: Overseeing product data accuracy and availability on the website.
 Developers: Responsible for building and maintaining the data transmission system.
@@ -80,10 +80,10 @@ System Administrators: Managing server infrastructure and ensuring security.
 # Project 4: GPC Endpoint  
 Developed a web application that provides a RESTful API for external applications to retrieve product and market data. 
 ## Table of Contents
-- [User Stories](#UserStories...)
-- [Stakeholders](#Stakeholders...)
-- [Problems and Challenges](#Problems/Challenges...)
-- [Role](#Role...)
+- [User Stories](#UserStories-3)
+- [Stakeholders](#Stakeholders-3)
+- [Problems and Challenges](#Problems/Challenges-3)
+- [Role](#Role-3)
 ## UserStories...
 - As a Product Manager, I need the API to provide accurate and timely data to support our business decisions.
 - As an External Developer, I want comprehensive documentation and examples to facilitate smooth integration.
@@ -102,10 +102,10 @@ Developed a web application that provides a RESTful API for external application
 # Project 5: Global Product Catalog
 Developed a comprehensive web application to manage products and market data, allowing admin teams to efficiently update and maintain data which is later published for end-users.
 ## Table of Contents
-- [User Stories](#UserStories....)
-- [Stakeholders](#Stakeholders....)
-- [Problems and Challenges](#Problems/Challenges....)
-- [Role](#Role....)
+- [User Stories](#UserStories-4)
+- [Stakeholders](#Stakeholders-4)
+- [Problems and Challenges](#Problems/Challenges-4)
+- [Role](#Role-4)
 ## UserStories....
 - As an Admin, I want to add, edit, or delete product information so that the data remains current and relevant.
 - As an Admin, I want to upload bulk market data through CSV or Excel files to save time and effort in data entry.
@@ -127,10 +127,10 @@ Developed a comprehensive web application to manage products and market data, al
 # Project 6: Loftware Job failure & Service Monitoring Email Alerts 
 Automated email alerts, improving system monitoring and reducing downtime. 
 ## Table of Contents
-- [User Stories](#UserStories.....)
-- [Stakeholders](#Stakeholders.....)
-- [Problems and Challenges](#Problems/Challenges.....)
-- [Role](#Role.....)
+- [User Stories](#UserStories-5)
+- [Stakeholders](#Stakeholders-5)
+- [Problems and Challenges](#Problems/Challenges-5)
+- [Role](#Role-5)
 ## UserStories.....
 - As a Application owner, I want to receive automated email alerts for critical system events so that I can respond quickly to issues.
 - As a Project Manager, I want to monitor the effectiveness of the alert system in reducing downtime and improving response times.
@@ -153,8 +153,8 @@ Automated email alerts, improving system monitoring and reducing downtime.
 # Project 7: Deployment and Maintenence IUCLID, Chesar, QSAR and Contrattech Applications- Support  
 Handled deployment of IUCLID, Chesar, QSAR and Contrattech Applications. 
 ## Table of Contents
-- [Stakeholders](#Stakeholders......)
-- [Problems and Challenges](#Problems/Challenges......)
+- [Stakeholders](#Stakeholders-6)
+- [Problems and Challenges](#Problems/Challenges-6)
 - [Role](#Role-6)
 ## Stakeholders......
 - Project Managers: Overseeing the deployment process and ensuring timelines are met.

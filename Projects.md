@@ -151,13 +151,17 @@ Automated email alerts, improving system monitoring and reducing downtime.
 # Project 7: Deployment and Maintenence IUCLID, Chesar, QSAR and Contrattech Applications- Support  
 Handled deployment of IUCLID, Chesar, QSAR and Contrattech Applications. 
 ## Table of Contents
-- [User Stories](#UserStories......)
 - [Stakeholders](#Stakeholders......)
 - [Problems and Challenges](#Problems/Challenges......)
 - [Role](#Role......)
-## UserStories......
 ## Stakeholders......
+- Project Managers: Overseeing the deployment process and ensuring timelines are met.
+- Clients: Users of the deployed applications who have specific requirements and expectations.
+- System Administrators: Responsible for managing server configurations and deployments.
 ## Problems/Challenges......
+- Configuration Conflicts: Potential conflicts between the application settings and server configurations that could lead to deployment failures.
+- Rollback Procedures: Establishing clear procedures for rolling back changes in case of deployment failures.
+- Documentation Gaps: Ensuring all configuration and deployment procedures are well-documented for future reference.
 ## Role......
 - Managed the deployment of the IUCLID application on the Glassfish server, ensuring seamless installation and configuration tailored to the client’s specific environment. 
 - Led deployment of Chesar and Contrattech on Apache Tomcat, including server setup, war file deployment, and SSL configuration. 

@@ -36,7 +36,7 @@ Developed a GCP Cloud Function to securely upload user data from Excel files to 
 - [User Stories](#UserStories-1)
 - [Stakeholders](#Stakeholders-1)
 - [Problems and Challenges](#Problems/Challenges-1)
-- [Role](#Role.)
+- [Role](#Role-1)
 ## UserStories.
 - As a System Administrator, I want to ensure that the upload process is secure to protect sensitive user information.
 - As a User, I want to receive a confirmation or error message after my upload so that I know if it was successful.

@@ -5,14 +5,14 @@ Developed a serverless GCP Cloud Function to automate user profile data processi
 - [Stakeholders](#Stakeholders)
 - [Problems and Challenges](#Problems/Challenges)
 - [Role](#Role)
-## UserStories.
+## UserStories
 - As a marketer, I want to see updated user profiles in MailJet sub-accounts after processing, so that I can target my campaigns effectively.
 - As a Application owner, I want to monitor the Cloud Function's performance and logs by receiving an email everyday once the upload of CSV file is completed, so that I can ensure it runs smoothly.
-## Stakeholders.
+## Stakeholders
 - Gudsis Team: Upload the CSV file extracted from Success Factors HR application.
 - Marketing Team: Uses MailJet for campaigns and relies on accurate user data.
 - Product Owners: Ensure that the solution meets business requirements and user needs.
-## Problems/Challenges.
+## Problems/Challenges
 **Data Validation:**
 - Ensuring the CSV file is correctly formatted and contains all required fields.
 - Handling missing or malformed data gracefully.
@@ -56,27 +56,27 @@ Developed a GCP Cloud Function to securely upload user data from Excel files to 
 # Project 3: GPC Delta Scheduler 
 Developed a system to read product data from a Product database and transmit it to an Acquia server for publishing products info to Solvay.com website. 
 ## Table of Contents
-- [User Stories](#UserStories)
-- [Stakeholders](#Stakeholders)
-- [Problems and Challenges](#Problems/Challenges)
-- [Role](#Role)
-## UserStories
+- [User Stories](#UserStories..)
+- [Stakeholders](#Stakeholders..)
+- [Problems and Challenges](#Problems/Challenges..)
+- [Role](#Role..)
+## UserStories..
 Product Managers: Overseeing product data accuracy and availability on the website.
 Developers: Responsible for building and maintaining the data transmission system.
 System Administrators: Managing server infrastructure and ensuring security.
-## Stakeholders
+## Stakeholders..
 - As a Product Manager, I want to ensure that all product data is accurately transmitted to the Acquia server, so that it is available on the Solvay.com website.
-## Problems/Challenges
+## Problems/Challenges..
 - Data Mapping: Ensuring the product data structure in the database matches the requirements of the Acquia server.
 - API Integration: Handling authentication, error responses, and data formatting when interfacing with the Acquia server API.
-## Role
+## Role..
 - Implemented data access layers using Spring Data JPA for database interactions. 
 - Developed service components for data processing and transformation. 
 - Built RESTful APIs for communication between systems, ensuring error handling and logging. 
 - Delivered a scalable solution for data synchronization, enhancing operational efficiency and data accuracy
 
 # Project 4: GPC Endpoint  
-
+Developed a web application that provides a RESTful API for external applications to retrieve product and market data. 
 ## Table of Contents
 - [User Stories](#UserStories...)
 - [Stakeholders](#Stakeholders...)
@@ -86,9 +86,12 @@ System Administrators: Managing server infrastructure and ensuring security.
 ## Stakeholders...
 ## Problems/Challenges...
 ## Role...
+- Created RESTful APIs to enable external applications to query product data and download documents. 
+- Integrated Sinequa and Documentum services to fetch the product info along with relevant Documents. 
+- Delivered a user-friendly interface which provides the information on available endpoints which facilitate seamless Product data access and document downloads which can be integrated with Client applications.
 
 # Project 5: Global Product Catalog
-
+Developed a comprehensive web application to manage products and market data, allowing admin teams to efficiently update and maintain data which is later published for end-users.
 ## Table of Contents
 - [User Stories](#UserStories....)
 - [Stakeholders](#Stakeholders....)
@@ -98,9 +101,13 @@ System Administrators: Managing server infrastructure and ensuring security.
 ## Stakeholders....
 ## Problems/Challenges....
 ## Role....
-
+- Developed the backend using Spring Boot for managing product, market, and chemical categories. 
+- Configured HTTPS protocol and handled SSL Certificate creation/import on Tomcat server. 
+- Successfully delivered a web application enabling effective data management for the admin team. 
+- Configured Jenkins CI-CD to ease the development and release operations.
+- 
 # Project 6: Loftware Job failure & Service Monitoring Email Alerts 
-
+Automated email alerts, improving system monitoring and reducing downtime. 
 ## Table of Contents
 - [User Stories](#UserStories.....)
 - [Stakeholders](#Stakeholders.....)
@@ -110,9 +117,14 @@ System Administrators: Managing server infrastructure and ensuring security.
 ## Stakeholders.....
 ## Problems/Challenges.....
 ## Role.....
-
+- Developed an automated email alert system to notify teams of job failures in the Loftware labeling application. 
+- Developed an email alert system to notify when the application service on the deployed server is down or not in running state. 
+- Designed and integrated the system to capture error logs and send detailed email notifications, improving real-time monitoring and response. 
+- Configured customizable email templates to include relevant error details, ensuring clarity and actionable insights for the development team. 
+- Collaborated with stakeholders and operations teams to test and fine-tune the notification system for accuracy and reliability.
+  
 # Project 7: Deployment and Maintenence IUCLID, Chesar, QSAR and Contrattech Applications- Support  
-
+Handled deployment of IUCLID, Chesar, QSAR and Contrattech Applications. 
 ## Table of Contents
 - [User Stories](#UserStories......)
 - [Stakeholders](#Stakeholders......)
@@ -122,3 +134,5 @@ System Administrators: Managing server infrastructure and ensuring security.
 ## Stakeholders......
 ## Problems/Challenges......
 ## Role......
+- Managed the deployment of the IUCLID application on the Glassfish server, ensuring seamless installation and configuration tailored to the client’s specific environment. 
+- Led deployment of Chesar and Contrattech on Apache Tomcat, including server setup, war file deployment, and SSL configuration. 

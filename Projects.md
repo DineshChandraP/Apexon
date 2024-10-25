@@ -6,8 +6,8 @@ Developed a serverless GCP Cloud Function to automate user profile data processi
 - [Problems and Challenges](#Problems/Challenges)
 - [Role](#Role)
 ## UserStories.
-As a marketer, I want to see updated user profiles in MailJet sub-accounts after processing, so that I can target my campaigns effectively.
-As a Application owner, I want to monitor the Cloud Function's performance and logs by receiving an email everyday once the upload of CSV file is completed, so that I can ensure it runs smoothly.
+- As a marketer, I want to see updated user profiles in MailJet sub-accounts after processing, so that I can target my campaigns effectively.
+- As a Application owner, I want to monitor the Cloud Function's performance and logs by receiving an email everyday once the upload of CSV file is completed, so that I can ensure it runs smoothly.
 ## Stakeholders.
 Gudsis Team: Upload the CSV file extracted from Success Factors HR application.
 Marketing Team: Uses MailJet for campaigns and relies on accurate user data.

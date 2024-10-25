@@ -35,7 +35,7 @@ Developed a GCP Cloud Function to securely upload user data from Excel files to 
 ## Table of Contents
 - [User Stories](#UserStories-1)
 - [Stakeholders](#Stakeholders-1)
-- [Problems and Challenges](#Problems/Challenges-1)
+- [Problems and Challenges](#ProblemsChallenges-1)
 - [Role](#Role-1)
 ## UserStories.
 - As a System Administrator, I want to ensure that the upload process is secure to protect sensitive user information.
@@ -60,7 +60,7 @@ Developed a system to read product data from a Product database and transmit it 
 ## Table of Contents
 - [User Stories](#UserStories-2)
 - [Stakeholders](#Stakeholders-2)
-- [Problems and Challenges](#Problems/Challenges-2)
+- [Problems and Challenges](#ProblemsChallenges-2)
 - [Role](#Role-2)
 ## UserStories..
 Product Managers: Overseeing product data accuracy and availability on the website.
@@ -82,7 +82,7 @@ Developed a web application that provides a RESTful API for external application
 ## Table of Contents
 - [User Stories](#UserStories-3)
 - [Stakeholders](#Stakeholders-3)
-- [Problems and Challenges](#Problems/Challenges-3)
+- [Problems and Challenges](#ProblemsChallenges-3)
 - [Role](#Role-3)
 ## UserStories...
 - As a Product Manager, I need the API to provide accurate and timely data to support our business decisions.
@@ -104,7 +104,7 @@ Developed a comprehensive web application to manage products and market data, al
 ## Table of Contents
 - [User Stories](#UserStories-4)
 - [Stakeholders](#Stakeholders-4)
-- [Problems and Challenges](#Problems/Challenges-4)
+- [Problems and Challenges](#ProblemsChallenges-4)
 - [Role](#Role-4)
 ## UserStories....
 - As an Admin, I want to add, edit, or delete product information so that the data remains current and relevant.
@@ -129,7 +129,7 @@ Automated email alerts, improving system monitoring and reducing downtime.
 ## Table of Contents
 - [User Stories](#UserStories-5)
 - [Stakeholders](#Stakeholders-5)
-- [Problems and Challenges](#Problems/Challenges-5)
+- [Problems and Challenges](#ProblemsChallenges-5)
 - [Role](#Role-5)
 ## UserStories.....
 - As a Application owner, I want to receive automated email alerts for critical system events so that I can respond quickly to issues.
@@ -154,7 +154,7 @@ Automated email alerts, improving system monitoring and reducing downtime.
 Handled deployment of IUCLID, Chesar, QSAR and Contrattech Applications. 
 ## Table of Contents
 - [Stakeholders](#Stakeholders-6)
-- [Problems and Challenges](#Problems/Challenges-6)
+- [Problems and Challenges](#ProblemsChallenges-6)
 - [Role](#Role-6)
 ## Stakeholders......
 - Project Managers: Overseeing the deployment process and ensuring timelines are met.

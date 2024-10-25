@@ -83,8 +83,15 @@ Developed a web application that provides a RESTful API for external application
 - [Problems and Challenges](#Problems/Challenges...)
 - [Role](#Role...)
 ## UserStories...
+- As a Product Manager, I need the API to provide accurate and timely data to support our business decisions.
+- As an External Developer, I want comprehensive documentation and examples to facilitate smooth integration.
+- External Clients/Developers: Using the API for their applications and providing feedback.
 ## Stakeholders...
+- Product Managers: Ensuring the API aligns with business objectives and provides necessary data.
+- Data Analysts: Utilizing the API for data extraction and analysis.
 ## Problems/Challenges...
+- Data Source Reliability: Ensuring that underlying data sources are reliable and can be queried effectively.
+- Documentation Gaps: Maintaining up-to-date and thorough documentation to support developers using the API.
 ## Role...
 - Created RESTful APIs to enable external applications to query product data and download documents. 
 - Integrated Sinequa and Documentum services to fetch the product info along with relevant Documents. 
@@ -98,8 +105,17 @@ Developed a comprehensive web application to manage products and market data, al
 - [Problems and Challenges](#Problems/Challenges....)
 - [Role](#Role....)
 ## UserStories....
+- As an Admin, I want to add, edit, or delete product information so that the data remains current and relevant.
+- As an Admin, I want to upload bulk market data through CSV or Excel files to save time and effort in data entry.
+- As a User, I want to view up-to-date product information on the website so that I can make informed purchasing decisions.
 ## Stakeholders....
+- Admin Users: Responsible for managing product and market data within the application.
+- End Users: Customers or clients accessing the product information published on the website.
+- Developers: Building and maintaining the web application, including both front-end and back-end components.
+- Product Managers: Ensuring the application meets business requirements and aligns with product strategy.
 ## Problems/Challenges....
+- Data Quality Issues: Ensuring that the product and market data entered by admin users is accurate and complete.
+- User Training: Ensuring that admin users are adequately trained to use the application efficiently.
 ## Role....
 - Developed the backend using Spring Boot for managing product, market, and chemical categories. 
 - Configured HTTPS protocol and handled SSL Certificate creation/import on Tomcat server. 
@@ -114,8 +130,17 @@ Automated email alerts, improving system monitoring and reducing downtime.
 - [Problems and Challenges](#Problems/Challenges.....)
 - [Role](#Role.....)
 ## UserStories.....
+- As a Application owner, I want to receive automated email alerts for critical system events so that I can respond quickly to issues.
+- As a Project Manager, I want to monitor the effectiveness of the alert system in reducing downtime and improving response times.
 ## Stakeholders.....
+- Project Managers: Overseeing the implementation of the alert system and its impact on operations.
+- End Users: Individuals affected by system downtime who need timely notifications.
 ## Problems/Challenges.....
+- Email Delivery Issues: Ensuring that alerts are reliably delivered without being filtered as spam or failing to send.
+- Configuration Complexity: Managing the configuration of the JAR file, BAT file, and Windows Task Scheduler can be complex and error-prone.
+- System Resource Utilization: Balancing the monitoring frequency with system performance to avoid excessive resource consumption.
+- Monitoring Coverage: Ensuring that all critical system events are monitored and that alerts are sent for the appropriate conditions.
+- User Training: Ensuring that system administrators are trained to manage and troubleshoot the alert system.
 ## Role.....
 - Developed an automated email alert system to notify teams of job failures in the Loftware labeling application. 
 - Developed an email alert system to notify when the application service on the deployed server is down or not in running state. 

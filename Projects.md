@@ -56,21 +56,24 @@ Developed a GCP Cloud Function to securely upload user data from Excel files to 
 # Project 3: GPC Delta Scheduler 
 Developed a system to read product data from a Product database and transmit it to an Acquia server for publishing products info to Solvay.com website. 
 ## Table of Contents
-- [User Stories](#UserStories..)
-- [Stakeholders](#Stakeholders..)
-- [Problems and Challenges](#Problems/Challenges..)
-- [Role](#Role..)
-## UserStories..
+- [User Stories](#UserStories)
+- [Stakeholders](#Stakeholders)
+- [Problems and Challenges](#Problems/Challenges)
+- [Role](#Role)
+## UserStories
 Product Managers: Overseeing product data accuracy and availability on the website.
 Developers: Responsible for building and maintaining the data transmission system.
 System Administrators: Managing server infrastructure and ensuring security.
-## Stakeholders..
+## Stakeholders
 - As a Product Manager, I want to ensure that all product data is accurately transmitted to the Acquia server, so that it is available on the Solvay.com website.
-## Problems/Challenges..
+## Problems/Challenges
 - Data Mapping: Ensuring the product data structure in the database matches the requirements of the Acquia server.
 - API Integration: Handling authentication, error responses, and data formatting when interfacing with the Acquia server API.
-## Role..
-Java Developer: Implementing the data retrieval and transmission logic, including API calls and error handling.
+## Role
+- Implemented data access layers using Spring Data JPA for database interactions. 
+- Developed service components for data processing and transformation. 
+- Built RESTful APIs for communication between systems, ensuring error handling and logging. 
+- Delivered a scalable solution for data synchronization, enhancing operational efficiency and data accuracy
 
 # Project 4: GPC Endpoint  
 

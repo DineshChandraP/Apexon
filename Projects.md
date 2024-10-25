@@ -3,7 +3,7 @@ Developed a serverless GCP Cloud Function to automate user profile data processi
 ## Table of Contents
 - [User Stories](#UserStories)
 - [Stakeholders](#Stakeholders)
-- [Problems and Challenges](#Problems/Challenges)
+- [Problems and Challenges](#ProblemsChallenges)
 - [Role](#Role)
 ## UserStories
 - As a marketer, I want to see updated user profiles in MailJet sub-accounts after processing, so that I can target my campaigns effectively.

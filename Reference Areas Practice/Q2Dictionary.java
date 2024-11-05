@@ -1,4 +1,4 @@
-package com.GS;
+//package com.GS;
 
 public class Q2Dictionary {
 

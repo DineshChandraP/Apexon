@@ -1,53 +1,38 @@
 Retrieve the first 5 employees by highest salary.
-
-ans) select * from employees order by salary desc LIMIT 5;
-
-=============================================================================
-
-Retrieve the 5 employees with the lowest salary, skipping the first 10 records.
-
-ans) select * from employees order by salary asc offset 10;
-
-==========================================================================================
-
-
-Display each department's total salary, but only show departments where the total salary exceeds $30,000.
-
-ans) select d.department_name ,e.salary from departments d 
-join employees e on d.department_id=e.department_id where d.department_name='Marketing'
-
-=================================================================================================
-
-For each employee, display their salary and a note if it is above or below $7000.
-
 ans)
-
-select *,
-case 
-when salary>7000 then "above 7000"
-when salary<7000 then "below 7000"
-else "no salary"
-end as sal_status
- from employees
- 
- 
+select * from employees order by salary desc LIMIT 5;
+=============================================================================
+Retrieve the 5 employees with the lowest salary, skipping the first 10 records.
+ans)
+select * from employees order by salary asc limit 5 offset 10;
+==========================================================================================
+Display each department's total salary, but only show departments where the total salary exceeds $30,000.
+ans)
+select d.name, sum(e.salary) as total_expense from employees e
+join departments d on e.department_id= d.id
+group by d.name having sum(e.salary)> 30000;
+=================================================================================================
+For each employee, display their salary and a note if it is above or below $7000.
+ans)
+select first_name, salary,
+CASE
+when salary> 3000 then "Above 3000"
+when salary<3000 then "Below 3000"
+end as salary_note
+from employees; 
  ====================================================================================================
- 
  List the projects that started in the last 6 months.
- 
- ans)SELECT project_name, project_id
-FROM projects
-WHERE start_date <= DATE_SUB(CURDATE(), INTERVAL 6 MONTH);
-
+ ans)
+ select * from projects
+where start_date>= curdate() -interval 6 month;
 =======================================================================================================
-
 Display all projects, including those with no employees assigned.
 
-ans)SELECT p.project_id, p.project_name, e.employee_id, e.first_name, e.last_name
+ans)
+SELECT p.id, p.title, e.id, e.first_name, e.last_name
 FROM projects p
-LEFT JOIN employeeprojects ep ON p.project_id = ep.project_id
-LEFT JOIN employees e ON e.employee_id = ep.employee_id;
-
+LEFT JOIN employees_projects ep ON p.id = ep.project_id
+LEFT JOIN employees e ON e.id = ep.employee_id;
 =======================================================================================================
 
 

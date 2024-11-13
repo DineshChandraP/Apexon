@@ -1,4 +1,4 @@
-package com.testOctTen;
+package Practice;
 
 public class FinalCoordinates {
 

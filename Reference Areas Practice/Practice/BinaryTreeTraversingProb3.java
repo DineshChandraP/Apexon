@@ -1,4 +1,4 @@
-package com.practice;
+package Practice;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

@@ -23,6 +23,7 @@ public class Q9MinimumDistanceBetweenWords {
 	private static void printMinimumDistanceBetweenTwoWords(String str, String word1, String word2) {
 
 		HashMap<String, Integer> map = new HashMap<String, Integer>();
+		int minimumDistance = Integer.MAX_VALUE;
 		String[] words = str.split(" ");
 
 		for (int index = 0; index < words.length; index++) {
@@ -33,8 +34,15 @@ public class Q9MinimumDistanceBetweenWords {
 			if (map.containsKey(word1) && map.containsKey(word2)) {
 
 				int result = Math.abs(map.get(word2) - map.get(word1)) - 1;
-				System.out.println("The minimum distance between given words is : " + result);
+				if (result < minimumDistance) {
+					minimumDistance = result;
+				}
 			}
+		}
+		if (minimumDistance != Integer.MAX_VALUE) {
+			System.out.println("The minimum distance between given words is : " + minimumDistance);
+		} else {
+			System.out.println("Invalid");
 		}
 	}
 

@@ -1,8 +1,8 @@
-package com.practiceafterten;
+package Practice;
 
 import java.util.HashSet;
 
-public class longSubString {
+public class longestsubstringwithoutrepeating {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,4 +1,4 @@
-package com.testOctTen;
+package Practice;
 
 import java.util.LinkedHashMap;
 

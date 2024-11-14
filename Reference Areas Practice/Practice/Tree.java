@@ -1,4 +1,4 @@
-package com.practice;
+package Practice;
 
 public class Tree {
 	

@@ -1,4 +1,4 @@
-package com.coderpadtest;
+package Practice;
 
 import java.math.BigInteger;
 

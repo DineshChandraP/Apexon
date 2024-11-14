@@ -1,5 +1,4 @@
-package com.coderpadtest;
-
+package Practice;
 public class CountWaysSteps {
 	
 	

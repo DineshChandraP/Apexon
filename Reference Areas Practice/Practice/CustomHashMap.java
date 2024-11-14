@@ -1,4 +1,4 @@
-package com.test;
+package Practice;
 
 import java.util.LinkedList;
 
@@ -7,11 +7,7 @@ public class CustomHashMap<k,v> {
 	
 	private LinkedList<Entry<k,v>>[] buckets;
         
-        private static int DEFAULT_CAPACITY=16;
-	
 	int size;
-
-
 	
 	private static int DEFAULT_CAPACITY=16;
 	

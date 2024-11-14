@@ -1,7 +1,15 @@
 //package com.GS;
 
 public class Q02_Dictionary {
-
+	/*
+	 * "Given a dictionary (list of words) and a substring, you have to return the
+	 * length of the longest word in the dictinary containing the substring.
+	 * 
+	 * Example: String[] dict = {""CODGE"", ""ODG"", ""LODGES"", ""SODG"",
+	 * ""dodge"", ""mODJ"", ""LODGESSSS""} String toSearch = ""ODG"";
+	 * 
+	 * //Returns 9 (LODGESSSS)"
+	 */
 	public static void main(String[] args) {
 		String[] dictionary = { "CODGE", "LODGESSSS", "LODGES", "123", "dodge", "mODJ", "LODGESSS" };
 		String toSearch = "ODG";

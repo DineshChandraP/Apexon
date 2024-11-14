@@ -1,4 +1,4 @@
-package com.practiceafterten;
+package Practice;
 
 public class LongestSubstringPallindromeGeeks {
 

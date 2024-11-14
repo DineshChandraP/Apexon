@@ -1,6 +1,6 @@
 //package com.GS;
 
-public class Q2Dictionary {
+public class Q02_Dictionary {
 
 	public static void main(String[] args) {
 		String[] dictionary = { "CODGE", "LODGESSSS", "LODGES", "123", "dodge", "mODJ", "LODGESSS" };

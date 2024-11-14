@@ -1,5 +1,5 @@
 
-public class Q14NumberPowerOfTen {
+public class Q14_NumberPowerOfTen {
 
 	public static void main(String[] args) {
 

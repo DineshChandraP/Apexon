@@ -1,6 +1,6 @@
 //package com.GS;
 
-public class Q5MedianOfTwoSortedArrays {
+public class Q05_MedianOfTwoSortedArrays {
 	/*
 	 * "Find the median of two sorted arrays of different sizes.
 	 * 

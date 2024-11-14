@@ -2,7 +2,7 @@
 
 import java.util.ArrayList;
 
-public class Q7StringStartsWithPrefix {
+public class Q07_StringStartsWithPrefix {
 
 	/*
 	 * "Prefix Search Given a document and a prefix, return all the words starting

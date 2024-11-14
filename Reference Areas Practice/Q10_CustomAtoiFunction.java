@@ -1,5 +1,5 @@
 
-public class Q10CustomAtoiFunction {
+public class Q10_CustomAtoiFunction {
 
 	public static void main(String[] args) {
 

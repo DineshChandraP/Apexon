@@ -1,5 +1,5 @@
 
-public class Q12ChessBoardBishop {
+public class Q12_ChessBoardBishop {
 
 	public static void main(String[] args) {
 		int[] bishop = { 1, 1 };

@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class Q9MinimumDistanceBetweenWords {
+public class Q09_MinimumDistanceBetweenWords {
 
 	/*
 	 * "Given a sentence/phrase and two words, return the minimum distance between

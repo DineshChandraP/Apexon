@@ -1,5 +1,5 @@
 
-public class Q29PascalTraingle {
+public class Q29_PascalTraingle {
 
 	public static void main(String[] args) {
 

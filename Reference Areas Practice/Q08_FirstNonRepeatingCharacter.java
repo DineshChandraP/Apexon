@@ -6,7 +6,7 @@ import java.util.Optional;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-public class Q8FirstNonRepeatingCharacter {
+public class Q08_FirstNonRepeatingCharacter {
 	/*
 	 * "Given a string, return the first non-repeating character.
 	 * 

@@ -2,7 +2,7 @@
 
 import java.util.HashMap;
 
-public class Q1CharOccurences {
+public class Q01_CharOccurences {
 
 	public static void main(String[] args) {
 		/*

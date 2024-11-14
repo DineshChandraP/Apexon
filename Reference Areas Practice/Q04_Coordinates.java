@@ -2,7 +2,7 @@
 
 import java.util.Iterator;
 
-public class Q4Coordinates {
+public class Q04_Coordinates {
 	/*
 	 * "Given the string (containing directions e.g., U, R, D, L) and initial
 	 * coordinates (0,0), return the final coordinates after traversing the string.

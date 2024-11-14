@@ -1,5 +1,5 @@
 
-public class Q11MinimumElementInSortedArray {
+public class Q11_MinimumElementInSortedArray {
 
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {

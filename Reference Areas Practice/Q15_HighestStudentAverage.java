@@ -12,7 +12,7 @@ public class Q15_HighestStudentAverage {
 	 * Example: String[][] = {{"Charles”, 84}, {"John”, 100}, {"Andy”, 37}, {"John”,
 	 * 23}, {"Charles”, 20}};
 	 * 
-	 * //Return 61.5 (which is of John's)"
+	 * Return 61.5 (which is of John's)"
 	 */
 
 	public static void main(String[] args) {

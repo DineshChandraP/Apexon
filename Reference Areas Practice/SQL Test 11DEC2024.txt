@@ -1,0 +1,17 @@
+DELETE o1 FROM orders o1
+JOIN (   
+SELECT MIN(orderId) AS orderId, custId,orderDate
+FROM orders
+GROUP BY custId, orderDate
+HAVING COUNT(*) > 1) AS duplicates
+ON o1.custId = duplicates.custId   AND  o1.orderDate = duplicates.orderDate
+WHERE o1.orderId != duplicates.orderId;
+  
+  
+DELETE ep FROM employees_projects ep
+JOIN (     
+SELECT MIN(id) AS id     
+FROM employees_projects     
+GROUP BY project_id, employee_id ) AS keep
+ON ep.project_id = keep.project_id AND ep.employee_id = keep.employee_id
+WHERE ep.id != keep.id;

@@ -17,7 +17,7 @@ public class Q14_NumberPowerOfTen {
 			System.out.println("Invalid Number");
 		}
 
-		System.out.println((int) Math.log10(n) == (int) Math.log10(n));
+		System.out.println(Math.log10(n) % 1 == 0);
 	}
 
 	private static void checkIftheGivenNumberIsPowerOfTenV2(int n) {

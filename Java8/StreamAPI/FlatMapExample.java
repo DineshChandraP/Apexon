@@ -18,7 +18,7 @@ public class FlatMapExample {
 
 		System.out.println("List of list-" + number);
 
-		List numbers = number.stream().flatMap(list -> list.stream()).collect(Collectors.toList());
-	System.out.println(numbers);
+		List<Integer> numbers = number.stream().flatMap(list -> list.stream()).collect(Collectors.toList());
+		System.out.println(numbers);
 	}
 }

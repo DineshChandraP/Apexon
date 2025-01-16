@@ -1,0 +1,49 @@
+Create database apexon;
+
+use apexon;
+
+create table departments(
+department_ID INT AUTO_INCREMENT PRIMARY KEY,
+department_Name  VARCHAR(100) NOT NULL
+);
+
+
+create table employee(
+employee_id INT AUTO_INCREMENT PRIMARY KEY,
+first_name VARCHAR(100) NOT NULL,
+last_name VARCHAR(100) NOT NULL ,
+email VARCHAR(50) UNIQUE  NOT NULL,
+department_id INT,
+FOREIGN KEY (department_ID) REFERENCES departments(department_ID)
+);
+
+
+CREATE TABLE projects(
+project_ID INT AUTO_INCREMENT PRIMARY KEY,
+project_Name VARCHAR(100) NOT NULL,
+start_date DATE,
+end_date DATE
+);
+
+
+CREATE TABLE employee_projects(
+employee_ID INT,
+project_ID INT,
+PRIMARY KEY (employee_ID, project_ID) ,
+FOREIGN KEY (employee_ID) REFERENCES employee(employee_ID),
+FOREIGN KEY (project_ID) REFERENCES projects(project_ID)
+
+);
+
+INSERT INTO departments(department_Name) VALUES ('Sales'),('Engineering');
+
+INSERT INTO employee(first_name, last_name, email, department_ID)
+ VALUES ('John', 'Doe', 'john.doe@example.com', 1),
+       ('Jane', 'Smith', 'jane.smith@example.com', 2);
+	   
+INSERT INTO projects (project_name, start_date, end_date) 
+VALUES ('Project A', '2024-01-01', '2024-06-30'),
+       ('Project B', '2024-07-01', '2024-12-31');   
+	   
+INSERT INTO employee_projects (employee_id, project_id)
+VALUES (1, 1), (1, 2), (2, 1);

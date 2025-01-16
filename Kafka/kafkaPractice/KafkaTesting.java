@@ -1,4 +1,4 @@
-package com.kafka;
+package kafkaPractice;
 
 import org.apache.kafka.clients.admin.*;
 import org.apache.kafka.clients.consumer.*;
@@ -9,18 +9,18 @@ import org.apache.kafka.common.serialization.StringSerializer;
 import java.util.*;
 import java.util.concurrent.ExecutionException;
 
-public class KafkaTesting4 {
+public class KafkaTesting {
 	public static void main(String[] args) throws Exception {
 		String bootstrapServers = "localhost:9092";
 		String topicName = "test1";
 		// Step 1: Create Kafka Topic
-		//createTopic(bootstrapServers, topicName);
+		createTopic(bootstrapServers, topicName);
 		
 		// Step 2: List Kafka Topics
-		//listTopics(bootstrapServers);
+		listTopics(bootstrapServers);
 
 		// Step 3: Produce a message to the Kafka topic
-		//produceMessage(bootstrapServers, topicName);
+		produceMessage(bootstrapServers, topicName);
 
 		// Step 4: Consume the message from the Kafka topic
 		consumeMessage(bootstrapServers, topicName);

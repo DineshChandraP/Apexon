@@ -1,0 +1,33 @@
+All commands should be executed in WSL:
+1.Install Java
+sudo apt update
+sudo apt install openjdk-11-jdk
+java -version
+ 
+ 
+2.Install Zookeeper:
+sudo apt install zookeeperd
+sudo service zookeeper start
+ 
+3. Install Kafka
+wget https://archive.apache.org/dist/kafka/3.3.1/kafka_2.13-3.3.1.tgz
+tar -xvzf kafka_2.13-3.3.1.tgz
+cd kafka_2.13-3.3.1
+ 
+4. Configure kafka
+nano config/server.properties
+zookeeper.connect=localhost:2181
+listeners=PLAINTEXT://localhost:9092
+ 
+Testing:
+Create Topic:
+bin/kafka-topics.sh --create --topic test --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
+ 
+List Topic:
+bin/kafka-topics.sh --list --bootstrap-server localhost:9092
+ 
+Produce Msg:
+bin/kafka-console-producer.sh --broker-list localhost:9092 --topic test
+ 
+Consume Msg:
+bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning

@@ -8,9 +8,12 @@ public class Transaction {
 	private BigDecimal amount;
 	private Type type;
 
-	public enum Type{GROCERY,ELECTRONICS,FASHION}
+	// public enum Type{GROCERY,ELECTRONICS,FASHION}
+	public enum type1 {
+		GROCERY, ELECTRONICS, FASHION
+	}
 
-	public Transaction(int id,Type type, BigDecimal amount) {
+	public Transaction(int id, Type type, BigDecimal amount) {
 		super();
 		this.id = id;
 		this.amount = amount;
@@ -45,7 +48,5 @@ public class Transaction {
 	public String toString() {
 		return "Trasaction [id=" + id + ", amount=" + amount + ", type=" + type + "]";
 	}
-	
-
 
 }

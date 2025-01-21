@@ -9,7 +9,7 @@ import org.apache.kafka.common.serialization.StringSerializer;
 import java.util.*;
 import java.util.concurrent.ExecutionException;
 
-public class KafkaTesting {
+public class KafkaTesting2 {
 	public static void main(String[] args) throws Exception {
 		String bootstrapServers = "localhost:9092";
 	//	String bootstrapServers = "localhost:2181";
@@ -21,10 +21,10 @@ public class KafkaTesting {
 		//listTopics(bootstrapServers);
 
 		// Step 3: Produce a message to the Kafka topic
-//		produceMessage(bootstrapServers, topicName);
+		produceMessage(bootstrapServers, topicName);
 
 		// Step 4: Consume the message from the Kafka topic
-		consumeMessage(bootstrapServers, topicName);
+//		consumeMessage(bootstrapServers, topicName);
 	}
 
 	// Method to create a Kafka topic
@@ -70,7 +70,7 @@ public class KafkaTesting {
 
 		KafkaProducer<String, String> producer = new KafkaProducer<>(properties);
 
-		String message = "Hello, Kafka! This is a test message.";
+		String message = "Hello, Kafka! This is a test message123456.";
 		ProducerRecord<String, String> record = new ProducerRecord<>(topicName, "key1", message);
 
 		try {

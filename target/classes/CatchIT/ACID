@@ -1,0 +1,20 @@
+The ACID properties are a set of four fundamental principles that ensure reliable processing of database transactions. These principles guarantee that a database remains in a consistent state even in the case of failures, errors, or concurrent transactions. The four ACID properties are:
+
+1. Atomicity
+Definition: Atomicity ensures that a transaction is treated as a single, indivisible unit. Either the entire transaction is successfully completed, or none of it is. If any part of the transaction fails, the entire transaction is rolled back, and no partial changes are made to the database.
+Example: In a bank transfer, if money is deducted from one account but the deposit to another account fails, the entire transfer is rolled back, and no money is transferred.
+2. Consistency
+Definition: Consistency ensures that a transaction takes the database from one valid state to another valid state. Any transaction must preserve the integrity of the database, meaning it should not violate any of the database's constraints, rules, or relationships.
+Example: In a database of student grades, if a transaction tries to assign an invalid grade (like a grade outside the allowed range), the database would reject the transaction to maintain consistency.
+3. Isolation
+Definition: Isolation ensures that transactions are executed independently and do not interfere with each other. Even though multiple transactions can run concurrently, the operations of one transaction should not be visible to others until the transaction is complete. This prevents issues like dirty reads, non-repeatable reads, and phantom reads.
+Example: If two transactions are simultaneously updating the same record, isolation ensures that one transaction completes entirely before the other can begin or both transactions are processed in a way that avoids conflicts.
+4. Durability
+Definition: Durability ensures that once a transaction has been committed, its results are permanent and will not be lost, even in the event of a system crash or failure. The database guarantees that the changes made by committed transactions are written to stable storage (like a hard disk) and can be recovered later.
+Example: If a transaction to update a user’s account balance is committed, the new balance will persist even if the system crashes immediately afterward.
+Summary of ACID Properties:
+Atomicity: "All or nothing" — the transaction is atomic.
+Consistency: The database remains in a valid state before and after the transaction.
+Isolation: Transactions are isolated from one another to prevent interference.
+Durability: Once a transaction is committed, it is permanent, even in case of failure.
+These properties collectively ensure that the database can handle a variety of transactional operations reliably, even under failure conditions, while maintaining integrity and consistency.

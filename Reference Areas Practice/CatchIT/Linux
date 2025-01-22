@@ -1,0 +1,93 @@
+#!/bin/bash
+# CPU space usage check
+counter=0
+while [ $counter -le 10 ]; do
+    cpu_usage=$( top -b -n 1| awk '/%Cpu/ {print $2+$4+$6}' )
+    echo "cpu usage is : $cpu_usage"  >> CPU_Usage.log
+    counter=$((counter+1))
+done
+
+------------------------------------------------------------------------------
+
+#!/bin/bash
+# Memory space usage check
+counter=0
+while [ $counter -le 10 ]; do
+         memory_usage=$( top -b -n 1| awk '/MiB Mem/ {print " total memory " $4, " free memory " $6, " used memory " $8}')
+    echo "memory usage is : $memory_usage"
+    counter=$((counter+1))
+done
+
+------------------------------------------------------------------------------
+#!/bin/bash
+# Disk space usage check
+
+THRESHOLD=80
+USAGE=$(df / | grep / | awk '{ print $5 }' | sed 's/%//g')
+
+if [ $USAGE -gt $THRESHOLD ]; then
+    echo "Warning: Disk usage is above $THRESHOLD%. Current usage is $USAGE%."
+    # Optionally, send an email alert or log to file
+fi
+
+------------------------------------------------------------------------------
+
+#!/bin/bash
+# System Health Check
+
+echo "Checking CPU usage..."
+top -bn1 | grep "Cpu(s)"
+
+echo "Checking memory usage..."
+free -h
+
+echo "Checking disk usage..."
+df -h
+
+echo "Checking running processes..."
+ps aux --sort=-%mem | head -n 10
+
+
+------------------------------------------------------------------------------
+
+#!/bin/bash
+# Log Rotation Script
+
+LOG_DIR="/var/log/myapp"
+MAX_SIZE=1000000  # Max size in bytes
+
+for LOG_FILE in $(ls $LOG_DIR/*.log); do
+    SIZE=$(stat -c %s "$LOG_FILE")
+    if [ $SIZE -gt $MAX_SIZE ]; then
+        mv $LOG_FILE $LOG_FILE.old
+        touch $LOG_FILE
+        echo "Log rotated: $LOG_FILE"
+    fi
+done
+
+------------------------------------------------------------------------------
+#!/bin/bash
+# Process Monitoring Script
+
+PROCESS="myapp"
+if ! pgrep -x "$PROCESS" > /dev/null; then
+    echo "$PROCESS is not running. Restarting..."
+    /path/to/myapp &
+else
+    echo "$PROCESS is running."
+fi
+
+------------------------------------------------------------------------------
+
+#!/bin/bash
+# Network Monitoring Script
+
+PING_TARGET="google.com"
+PING_COUNT=4
+
+ping -c $PING_COUNT $PING_TARGET > /dev/null
+if [ $? -eq 0 ]; then
+    echo "Network is up."
+else
+    echo "Network is down."
+fi
